@@ -13,3 +13,7 @@
 .ml-auto {
     margin-left: auto;
 }
+
+#layer1 {
+    display: none;
+}
