@@ -4,7 +4,6 @@ shortcut.addEventListener("click mouseenter", showLayer);
 
 function showLayer(){
    const layer1 = document.querySelector("#layer1");
-   console.log()
-   
+   layer1.style.display = "block";
 
 }
