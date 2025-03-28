@@ -1,5 +1,10 @@
 @charset "utf-8";
-
+body {
+    height: 3000px;
+}
+fieldset {
+    border: 0;
+}
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -43,4 +48,21 @@ hr {
 
 .shortcut-container {
     justify-content: space-around;
+}
+
+.search {
+    border: 1px solid green;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#search_input {
+    border: 0;
+    outline: 0;
+    width: 80%;
+}
+
+#search_btn {
+    margin-left: auto;
 }
