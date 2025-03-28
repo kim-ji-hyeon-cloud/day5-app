@@ -4,7 +4,12 @@
     width: 1280px;
     margin: 0 auto;
 }
-
+.pos-absolute {
+    position: absolute;
+}
+.pos-relative {
+    position: relative;
+}
 .d-flex {
     display: flex
 }
@@ -15,32 +20,27 @@
 
 #layer1 {
     display: none; /* 표시 : 안함 */
-    position: absolute;
-    top: 100px;
-    left: 10%;
-    border: 5px solid green;
-    border-width: 2px;
+    top: 40px;
+    left: 0%;
+    width: 380px;
+    border: 1px solid #efefef;
+    background-color: rgb(254, 255, 255);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 1rem;
+    
+    
 
 }
-h1 {
-    margin: 15px;
+.layer-title {
+    font-size: 1.125rem;
+    border-bottom: 1px solid rgba(137, 141, 139, 0.767);
+    padding-bottom: 10px;
 }
-.login-menu {
-    padding: 20px;
-    width: 80%;
-    height: 300px;
+hr {
+    margin: 30px 0;
 }
-.login-tab {
-    display: flex;
-    width: 100%;
 
-}
-.login-service {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.login-icon > img {
-    width: 100px;
-    height: 100px;
+.shortcut-container {
+    justify-content: space-around;
 }
